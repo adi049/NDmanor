@@ -34,7 +34,9 @@ const roomAmenities = [
   'Complimentary toiletries',
 ];
 
-const assetBase = import.meta.env.BASE_URL;
+const assetBase = typeof process !== 'undefined'
+  ? (process.env.GITHUB_PAGES === 'true' ? '/NDmanor/' : '/')
+  : import.meta.env.BASE_URL;
 
 const photo = (name, alt) => ({
   src: `${assetBase}images/${name}.webp`,
