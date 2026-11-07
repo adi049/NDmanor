@@ -7,6 +7,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dist = join(root, 'dist');
 const template = await readFile(join(dist, 'index.html'), 'utf8');
 const imageManifest = JSON.parse(await readFile(join(root, 'src/data/image-manifest.json'), 'utf8'));
+const assetBase = process.env.GITHUB_PAGES === 'true' ? '/NDmanor/' : '/';
 const productionDomain = (process.env.SITE_URL || site.domain || '').replace(/\/$/, '');
 if (productionDomain) {
   const parsed = new URL(productionDomain);
@@ -49,8 +50,8 @@ function renderMeta(route) {
     .replace(/"image": "[^"]*"/, `"image": "${socialImage}"`);
   const routeImage = routeImages[route.path];
   const responsive = routeImage ? imageManifest[routeImage] : undefined;
-  const srcSet = responsive?.sources.map((source) => `${source.src} ${source.width}w`).join(', ');
-  const preload = routeImage ? `<link rel="preload" href="/images/${routeImage}.webp" as="image" fetchpriority="high"${srcSet ? ` imagesrcset="${srcSet}" imagesizes="100vw"` : ''} />` : '';
+  const srcSet = responsive?.sources.map((source) => assetBase + source.src.replace(/^\\//, '') + ' ' + source.width + 'w').join(', ');
+  const preload = routeImage ? '<link rel="preload" href="' + assetBase + 'images/' + routeImage + '.webp" as="image" fetchpriority="high"' + (srcSet ? ' imagesrcset="' + srcSet + '" imagesizes="100vw"' : '') + ' />' : '';
   html = html.replace(/<link rel="preload" href="\/images\/exterior-hero\.webp" as="image"[^>]*\/>/, preload);
   if (route.noindex) html = html.replace('<meta name="theme-color"', '<meta name="robots" content="noindex, follow" />\n    <meta name="theme-color"');
   return html;
