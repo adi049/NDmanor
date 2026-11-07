@@ -1,0 +1,568 @@
+{
+  "banquet-event": {
+    "width": 1280,
+    "height": 853,
+    "sources": [
+      {
+        "src": "/images/banquet-event-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/images/banquet-event-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/images/banquet-event-1200.webp",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/images/banquet-event.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "banquet-rounds": {
+    "width": 1280,
+    "height": 853,
+    "sources": [
+      {
+        "src": "/images/banquet-rounds-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/images/banquet-rounds-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/images/banquet-rounds-1200.webp",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/images/banquet-rounds.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "banquet-setting": {
+    "width": 1280,
+    "height": 853,
+    "sources": [
+      {
+        "src": "/images/banquet-setting-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/images/banquet-setting-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/images/banquet-setting-1200.webp",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/images/banquet-setting.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "banquet-stage": {
+    "width": 1040,
+    "height": 780,
+    "sources": [
+      {
+        "src": "/images/banquet-stage-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/images/banquet-stage-768.webp",
+        "width": 768,
+        "height": 576
+      },
+      {
+        "src": "/images/banquet-stage.webp",
+        "width": 1040,
+        "height": 780
+      }
+    ]
+  },
+  "celebration-entrance": {
+    "width": 1600,
+    "height": 1200,
+    "sources": [
+      {
+        "src": "/images/celebration-entrance-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/images/celebration-entrance-768.webp",
+        "width": 768,
+        "height": 576
+      },
+      {
+        "src": "/images/celebration-entrance-1200.webp",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "/images/celebration-entrance.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "corridor": {
+    "width": 675,
+    "height": 900,
+    "sources": [
+      {
+        "src": "/images/corridor-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "/images/corridor.webp",
+        "width": 675,
+        "height": 900
+      }
+    ]
+  },
+  "culinary-team": {
+    "width": 1024,
+    "height": 768,
+    "sources": [
+      {
+        "src": "/images/culinary-team-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/images/culinary-team-768.webp",
+        "width": 768,
+        "height": 576
+      },
+      {
+        "src": "/images/culinary-team.webp",
+        "width": 1024,
+        "height": 768
+      }
+    ]
+  },
+  "exterior-day": {
+    "width": 1080,
+    "height": 900,
+    "sources": [
+      {
+        "src": "/images/exterior-day-480.webp",
+        "width": 480,
+        "height": 400
+      },
+      {
+        "src": "/images/exterior-day-768.webp",
+        "width": 768,
+        "height": 640
+      },
+      {
+        "src": "/images/exterior-day.webp",
+        "width": 1080,
+        "height": 900
+      }
+    ]
+  },
+  "exterior-hero": {
+    "width": 1600,
+    "height": 900,
+    "sources": [
+      {
+        "src": "/images/exterior-hero-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "/images/exterior-hero-768.webp",
+        "width": 768,
+        "height": 432
+      },
+      {
+        "src": "/images/exterior-hero-1200.webp",
+        "width": 1200,
+        "height": 675
+      },
+      {
+        "src": "/images/exterior-hero.webp",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  "exterior-sign": {
+    "width": 373,
+    "height": 477,
+    "sources": [
+      {
+        "src": "/images/exterior-sign.webp",
+        "width": 373,
+        "height": 477
+      }
+    ]
+  },
+  "exterior-twilight": {
+    "width": 1024,
+    "height": 683,
+    "sources": [
+      {
+        "src": "/images/exterior-twilight-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/images/exterior-twilight-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/images/exterior-twilight.webp",
+        "width": 1024,
+        "height": 683
+      }
+    ]
+  },
+  "lobby": {
+    "width": 1280,
+    "height": 853,
+    "sources": [
+      {
+        "src": "/images/lobby-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/images/lobby-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/images/lobby-1200.webp",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/images/lobby.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "restaurant-detail": {
+    "width": 1200,
+    "height": 900,
+    "sources": [
+      {
+        "src": "/images/restaurant-detail-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/images/restaurant-detail-768.webp",
+        "width": 768,
+        "height": 576
+      },
+      {
+        "src": "/images/restaurant-detail.webp",
+        "width": 1200,
+        "height": 900
+      }
+    ]
+  },
+  "restaurant-interior": {
+    "width": 1280,
+    "height": 720,
+    "sources": [
+      {
+        "src": "/images/restaurant-interior-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "/images/restaurant-interior-768.webp",
+        "width": 768,
+        "height": 432
+      },
+      {
+        "src": "/images/restaurant-interior-1200.webp",
+        "width": 1200,
+        "height": 675
+      },
+      {
+        "src": "/images/restaurant-interior.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "restaurant-main": {
+    "width": 1200,
+    "height": 900,
+    "sources": [
+      {
+        "src": "/images/restaurant-main-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/images/restaurant-main-768.webp",
+        "width": 768,
+        "height": 576
+      },
+      {
+        "src": "/images/restaurant-main.webp",
+        "width": 1200,
+        "height": 900
+      }
+    ]
+  },
+  "room-deluxe-seating": {
+    "width": 1024,
+    "height": 683,
+    "sources": [
+      {
+        "src": "/images/room-deluxe-seating-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/images/room-deluxe-seating-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/images/room-deluxe-seating.webp",
+        "width": 1024,
+        "height": 683
+      }
+    ]
+  },
+  "room-deluxe": {
+    "width": 1024,
+    "height": 683,
+    "sources": [
+      {
+        "src": "/images/room-deluxe-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/images/room-deluxe-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/images/room-deluxe.webp",
+        "width": 1024,
+        "height": 683
+      }
+    ]
+  },
+  "room-super-deluxe-detail": {
+    "width": 577,
+    "height": 768,
+    "sources": [
+      {
+        "src": "/images/room-super-deluxe-detail-480.webp",
+        "width": 480,
+        "height": 639
+      },
+      {
+        "src": "/images/room-super-deluxe-detail.webp",
+        "width": 577,
+        "height": 768
+      }
+    ]
+  },
+  "room-super-deluxe-prepared": {
+    "width": 922,
+    "height": 768,
+    "sources": [
+      {
+        "src": "/images/room-super-deluxe-prepared-480.webp",
+        "width": 480,
+        "height": 400
+      },
+      {
+        "src": "/images/room-super-deluxe-prepared-768.webp",
+        "width": 768,
+        "height": 640
+      },
+      {
+        "src": "/images/room-super-deluxe-prepared.webp",
+        "width": 922,
+        "height": 768
+      }
+    ]
+  },
+  "room-super-deluxe": {
+    "width": 1023,
+    "height": 768,
+    "sources": [
+      {
+        "src": "/images/room-super-deluxe-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/images/room-super-deluxe-768.webp",
+        "width": 768,
+        "height": 577
+      },
+      {
+        "src": "/images/room-super-deluxe.webp",
+        "width": 1023,
+        "height": 768
+      }
+    ]
+  },
+  "room-deluxe-detail": {
+    "width": 1024,
+    "height": 683,
+    "sources": [
+      {
+        "src": "/images/room-deluxe-detail-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/images/room-deluxe-detail-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/images/room-deluxe-detail.webp",
+        "width": 1024,
+        "height": 683
+      }
+    ]
+  },
+  "room-bathtub": {
+    "width": 922,
+    "height": 768,
+    "sources": [
+      {
+        "src": "/images/room-bathtub-480.webp",
+        "width": 480,
+        "height": 400
+      },
+      {
+        "src": "/images/room-bathtub-768.webp",
+        "width": 768,
+        "height": 640
+      },
+      {
+        "src": "/images/room-bathtub.webp",
+        "width": 922,
+        "height": 768
+      }
+    ]
+  },
+  "room-bathtub-detail": {
+    "width": 922,
+    "height": 768,
+    "sources": [
+      {
+        "src": "/images/room-bathtub-detail-480.webp",
+        "width": 480,
+        "height": 400
+      },
+      {
+        "src": "/images/room-bathtub-detail-768.webp",
+        "width": 768,
+        "height": 640
+      },
+      {
+        "src": "/images/room-bathtub-detail.webp",
+        "width": 922,
+        "height": 768
+      }
+    ]
+  },
+  "room-bathtub-feature": {
+    "width": 576,
+    "height": 768,
+    "sources": [
+      {
+        "src": "/images/room-bathtub-feature-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "/images/room-bathtub-feature.webp",
+        "width": 576,
+        "height": 768
+      }
+    ]
+  },
+  "room-family": {
+    "width": 1448,
+    "height": 1086,
+    "sources": [
+      {
+        "src": "/images/room-family-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/images/room-family-768.webp",
+        "width": 768,
+        "height": 576
+      },
+      {
+        "src": "/images/room-family-1200.webp",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "/images/room-family.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    ]
+  },
+  "room-royal": {
+    "width": 1448,
+    "height": 1086,
+    "sources": [
+      {
+        "src": "/images/room-royal-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/images/room-royal-768.webp",
+        "width": 768,
+        "height": 576
+      },
+      {
+        "src": "/images/room-royal-1200.webp",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "/images/room-royal.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+# Pre-rendered route directories resolve on their own; anything else gets the styled 404.
+/*  /404.html  404
