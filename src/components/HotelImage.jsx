@@ -7,7 +7,7 @@ export const responsiveImage = (src) => {
 };
 
 export const responsiveSrcSet = (src) => responsiveImage(src)?.sources
-  .map((source) => `${source.src} ${source.width}w`)
+   .map((source) => `${import.meta.env.BASE_URL}${source.src.replace(/^\//, '')} ${source.width}w`)
   .join(', ');
 
 export default function HotelImage({ image, className = '', thumbnail = false, eager = false, sizes, ...props }) {
