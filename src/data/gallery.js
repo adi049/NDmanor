@@ -1,10 +1,12 @@
+const assetBase = import.meta.env.BASE_URL;
+
 const item = (name, category, caption, alt) => ({
   id: name,
   category,
   caption,
   alt,
-  src: `/images/${name}.webp`,
-  thumbnail: `/images/${name}-thumb.webp`,
+  src: `${assetBase}images/${name}.webp`,
+  thumbnail: `${assetBase}images/${name}-thumb.webp`,
 });
 
 export const galleryCategories = ['All Photos', 'Exterior', 'Rooms', 'Interiors', 'Dining', 'Banquets'];
