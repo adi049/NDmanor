@@ -34,9 +34,11 @@ const roomAmenities = [
   'Complimentary toiletries',
 ];
 
+const assetBase = import.meta.env.BASE_URL;
+
 const photo = (name, alt) => ({
-  src: `/images/${name}.webp`,
-  thumbnail: `/images/${name}-thumb.webp`,
+  src: `${assetBase}images/${name}.webp`,
+  thumbnail: `${assetBase}images/${name}-thumb.webp`,
   alt,
 });
 
