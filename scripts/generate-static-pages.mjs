@@ -50,7 +50,7 @@ function renderMeta(route) {
     .replace(/"image": "[^"]*"/, `"image": "${socialImage}"`);
   const routeImage = routeImages[route.path];
   const responsive = routeImage ? imageManifest[routeImage] : undefined;
-  const srcSet = responsive?.sources.map((source) => assetBase + source.src.replace(/^\\//, '') + ' ' + source.width + 'w').join(', ');
+  const srcSet = responsive?.sources.map((source) => assetBase + source.src.slice(1) + ' ' + source.width + 'w').join(', ');
   const preload = routeImage ? '<link rel="preload" href="' + assetBase + 'images/' + routeImage + '.webp" as="image" fetchpriority="high"' + (srcSet ? ' imagesrcset="' + srcSet + '" imagesizes="100vw"' : '') + ' />' : '';
   html = html.replace(/<link rel="preload" href="[^"]*exterior-hero\.webp" as="image"[^>]*\/>/, preload);
   if (route.noindex) html = html.replace('<meta name="theme-color"', '<meta name="robots" content="noindex, follow" />\n    <meta name="theme-color"');
