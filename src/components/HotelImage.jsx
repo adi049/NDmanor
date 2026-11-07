@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import imageManifest from '../data/image-manifest.json';
 
+const resolveImagePath = (path) => path?.startsWith('/images/')
+  ? `${import.meta.env.BASE_URL}${path.slice(1)}`
+  : path;
+
 export const responsiveImage = (src) => {
   const name = src?.match(/\/images\/([^/]+)\.webp$/)?.[1];
   return name ? imageManifest[name] : undefined;
@@ -23,7 +27,7 @@ export default function HotelImage({ image, className = '', thumbnail = false, e
     <div className={`hotel-image ${loaded ? 'is-loaded' : ''} ${failed ? 'has-error' : ''} ${className}`}>
       {!failed ? (
         <img
-          src={thumbnail ? source.thumbnail : source.src}
+          src={resolveImagePath(thumbnail ? source.thumbnail : source.src)}
           srcSet={responsiveSrcSet(source.src)}
           alt={source.alt}
           width={responsive?.width}
