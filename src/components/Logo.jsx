@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 
+const assetBase = import.meta.env.BASE_URL;
+
 const logoSources = [
-  { src: '/images/nd-manor-logo-128.webp', width: 128 },
-  { src: '/images/nd-manor-logo-256.webp', width: 256 },
-  { src: '/images/nd-manor-logo-512.webp', width: 512 },
-  { src: '/images/nd-manor-logo-1024.webp', width: 1024 },
+  { src: `${assetBase}images/nd-manor-logo-128.webp`, width: 128 },
+  { src: `${assetBase}images/nd-manor-logo-256.webp`, width: 256 },
+  { src: `${assetBase}images/nd-manor-logo-512.webp`, width: 512 },
+  { src: `${assetBase}images/nd-manor-logo-1024.webp`, width: 1024 },
 ];
 
 // Decorative presentation of the hotel's circular ND Mandala logo. The visible
@@ -14,7 +16,7 @@ export function BrandLogo({ className = '', sizes = '96px' }) {
     <img
       className={className}
       data-brand-logo=""
-      src="/images/nd-manor-logo-256.webp"
+      src={`${assetBase}images/nd-manor-logo-256.webp`}
       srcSet={logoSources.map((source) => `${source.src} ${source.width}w`).join(', ')}
       sizes={sizes}
       width="512"
